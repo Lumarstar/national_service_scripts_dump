@@ -8,7 +8,7 @@ Scripts written in Python meant to automate the checking of responses provided i
 
 The version used to build this was Python 3.9.13. It is recommended to download this version of Python to ensure compability.
 
-Python can be installed [here.](https://www.python.org/downloads/), and more information about Python 3.9.13 can be found [here.](https://www.python.org/downloads/release/python-3913/)
+Python can be installed [here](https://www.python.org/downloads/), and more information about Python 3.9.13 can be found [here.](https://www.python.org/downloads/release/python-3913/)
 
 **Note: Remember to select the "Add Python3.9 to PATH" checkbox. This saves you a lot of time.**
 
