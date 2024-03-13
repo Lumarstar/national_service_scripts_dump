@@ -21,3 +21,5 @@ requirements of the company.
 ## Copyright
 
 Made by Tew En Hao, Assistant Trainer. ASA Platoon 3, Coyote Company, Basic Military Training Centre School 5. ASCC 57/23.
+
+**Copyright © 2023-2024 Tew En Hao. All Rights Reserved.**
