@@ -1,4 +1,4 @@
-![image](https://github.com/tewenhao/national_service_scripts_dump/assets/63058663/96c5c2d0-d20a-4503-b5a3-3edda10dbf5c)# SDL Excel Assignment
+# SDL Excel Assignment
 
 Scripts to automate the marking of a Microsoft Excel assignment that serves as the culmination of the Administrative Support Assistant trainees' Microsoft Excel
 module, implemented on Google Sheets using Google App Script.
