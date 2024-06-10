@@ -223,7 +223,7 @@ function Check_Conditional_Formatting() {
   for (var i = 0; i < values.length; i++) {
     var background = range.getCell(i+1, 1).getBackground()
 
-    if (values[i][0] >= 5 & background == "#ffffff" || values[i][0] < 5 & background != "#ffffff") {
+    if (values[i][0] >= 5 & ['#ffffff', '#d8d8d8', '#d9e2f3'].includes(background) || values[i][0] < 5 & !(['#ffffff', '#d8d8d8', '#d9e2f3'].includes(background))) {
       SpreadsheetApp.getUi().alert("You need to have conditional formatting!");
       return false;
     }
@@ -376,7 +376,7 @@ function Check_Bar_Chart() {
     return false;
   }
 
-  var title = options.get('title');
+  var title = options.get('title').trim();
 
   if (title == "") {
     SpreadsheetApp.getUi().alert("We need a title for the bar chart. The title is 'Daily Strength'.");
@@ -386,7 +386,7 @@ function Check_Bar_Chart() {
     return false;
   }
 
-  var x_title = options.get('hAxis.title')
+  var x_title = options.get('hAxis.title').trim()
 
   if (x_title == "") {
     SpreadsheetApp.getUi().alert("We need a x-axis title for the bar chart. The title is 'Date'.");
@@ -396,7 +396,7 @@ function Check_Bar_Chart() {
     return false;
   }
 
-  var y_title = options.get('vAxes.0.title')
+  var y_title = options.get('vAxes.0.title').trim()
 
   if (y_title == "") {
     SpreadsheetApp.getUi().alert("We need a y-axis title for the bar chart. The title is 'Present Strength'.");
@@ -413,10 +413,8 @@ function Check_Bar_Chart() {
 /**
  * Clears the values of a specified range.
  * 
- * @param {string} range - the range of cells to input the image.
- * @param {string} imageUrl - the url of the image.
- * @param {string} altTitle - the title of the image, shows if image does not render.
- * @param {string} altDescription - the description of the image, shows if image does not render.
+ * @param {string} range_start - the start of the range of cells to clear values.
+ * @param {string} range_start - the end of the range of cells to clear values.
 */
 function clearCells(sheet, range_start, range_end) {
   sheet.getRange(range_start + ":" + range_end).setValue("")
