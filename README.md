@@ -15,8 +15,8 @@ As requested by AST Jin Xing, I made this script to automate the marking process
 
 ### Appraisals Results Generation
 
-My secondary appointment in Coyote Company is the Company Appraisals IC. After collecting all the required results via Google Forms, the scripts will generate and rebase the appraisal results based on the
-requirements of the company.
+My secondary appointment in Coyote Company is (or rather, was. as of 15 April 2024 I no longer held this appointment.) the Company Appraisals IC. After collecting all the required results via Google Forms, the
+scripts will generate and rebase the appraisal results based on the requirements of the company.
 
 ## Copyright
 
