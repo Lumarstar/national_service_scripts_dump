@@ -52,4 +52,32 @@ your sheet. A separate window should pop up.
 
 ## Usage Guide
 
-Following [this guide here]()
+Following [this guide here](https://github.com/tewenhao/national_service_scripts_dump/blob/3c5b1c8510e3934e52ab69d78c90c778b8bbabbd/sdl_excel_assignment/ASA%20SDL%20Excel%20Assignment%20Instructions.pdf),
+you should be able to complete the assignment.
+
+When grading, there are a few possible outcomes for each task:
+- If the task is completed correctly, a pop-up window will be shown indicating the task is completed correctly, and `Completed` will be filled in in the
+corresponding cell in the table.
+- If the task is not completed correctly, a pop-up window will show which cell requires correction. (But do know that this is usually caused by an incorrect
+formula anyway.)
+- If the task is not completed but somehow, `Completed` has been filled in, the programme will remove `Completed` from the table starting from the cell that
+corresponds to said task and all tasks after it.
+
+## Change Log
+
+Refer to [CHANGELOG.md]() for the change log!
+
+## Acknowledgement
+
+I would like to thank the following people:
+
+- 41/23 C2306 Salmaan is recognized for his contributions to the script, particularly for his efforts in resolving a bug that hindered the correct display of an image, and for identifying another bug necessitating specific fonts and formatting for the title of the bar chart.
+
+## Copyright
+
+Copyright © 2023 - 2024 Tew En Hao
+
+This repository is authored by Tew En Hao, ASCC 57/23, BMTC SCH V Coyote Company Platoon 2 (38/23 to 41/23) and Platoon 3 (42/23 onwards) Section
+Commander/Assistant Trainer.
+
+All Rights Reserved.
