@@ -52,3 +52,4 @@ your sheet. A separate window should pop up.
 
 ## Usage Guide
 
+Following [this guide here]()
