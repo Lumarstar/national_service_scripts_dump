@@ -65,7 +65,8 @@ corresponds to said task and all tasks after it.
 
 ## Change Log
 
-Refer to [CHANGELOG.md]() for the change log!
+Refer to [CHANGELOG.md](https://github.com/tewenhao/national_service_scripts_dump/blob/247d96c5d5b53043a859c7dce3e3c495098cc9ea/sdl_excel_assignment/CHANGELOG.md)
+for the change log!
 
 ## Acknowledgement
 
