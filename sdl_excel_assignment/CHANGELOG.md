@@ -1,8 +1,15 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. Logs were documented starting 5 Dec 2023.
 
 ## Version Log
+
+### [v1.2.1] - 10 Jun 2024
+- Fixed bug where bar chart title and axes titles are not accepted as correct answers even though visually the chart looks correct by
+adding `.trim()` to bar chart title and axes titles to circumvent erroneous/extra whitespace from user.
+- Fixed bug where conditional formatting fails for leave day values less than 5 (no highlighting required) by 
+accounting for and accepting 2 additional background colours (`#d8d8d8` and `#d9e2f3`) for values less than or equal to 5
+when checking for conditional formatting.
 
 ### [v1.2.0] - 6 Dec 2023
 - Removed image insertion functions due to AppScript's incompatibility with Google Drive. Instead, the assignment completion message was edited 
@@ -22,6 +29,7 @@ so that trainees will have to submit a screenshot with it included as proof (as 
 - Functionality to check assignment was implemented on [an Excel workbook](https://github.com/tewenhao/national_service_scripts_dump/blob/8c910f7824ead88923832f90acbc42815e7e588c/sdl_excel_assignment/ASA_SDL_Automated_Checks.xlsm)
 using VBA Macros.
 
+[v1.2.1]: #v121---10-jun-2024
 [v1.2.0]: #v120---6-dec-2023
 [v1.1.0]: #v110---date-unknown
 [v1.0.0]: #v100---date-unknown
