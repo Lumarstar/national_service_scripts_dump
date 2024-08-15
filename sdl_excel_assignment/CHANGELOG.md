@@ -33,6 +33,7 @@ so that trainees will have to submit a screenshot with it included as proof (as 
 - Functionality to check assignment was implemented on [an Excel workbook](https://github.com/tewenhao/national_service_scripts_dump/blob/8c910f7824ead88923832f90acbc42815e7e588c/sdl_excel_assignment/ASA_SDL_Automated_Checks.xlsm)
 using VBA Macros.
 
+[v1.2.2]: #v122---15-aug-2024
 [v1.2.1]: #v121---10-jun-2024
 [v1.2.0]: #v120---6-dec-2023
 [v1.1.0]: #v110---date-unknown
