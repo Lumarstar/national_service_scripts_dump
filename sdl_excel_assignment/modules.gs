@@ -353,7 +353,7 @@ function Check_Average_Strength() {
 }
 
 /**
- * Checks if the there is a bar chart, and said chart has all required components.
+ * Checks if there is a bar chart, and said chart has all required components.
  * 
  * @return {boolean} `True` if the bar chart is correctly done, `False` if otherwise.
 */
@@ -376,32 +376,32 @@ function Check_Bar_Chart() {
     return false;
   }
 
-  var title = options.get('title').trim();
+  var title = options.get('title');
 
-  if (title == "") {
+  if (title == null || title == "") {
     SpreadsheetApp.getUi().alert("We need a title for the bar chart. The title is 'Daily Strength'.");
     return false;
-  } else if (title != "Daily Strength") {
+  } else if (title.trim() != "Daily Strength") {
     SpreadsheetApp.getUi().alert("The bar chart title is to be 'Daily Strength'.");
     return false;
   }
 
-  var x_title = options.get('hAxis.title').trim()
+  var x_title = options.get('hAxis.title')
 
-  if (x_title == "") {
+  if (x_title == null || x_title == "") {
     SpreadsheetApp.getUi().alert("We need a x-axis title for the bar chart. The title is 'Date'.");
     return false;
-  } else if (x_title != "Date") {
+  } else if (x_title.trim() != "Date") {
     SpreadsheetApp.getUi().alert("The bar chart x-axis title is to be 'Date'.");
     return false;
   }
 
-  var y_title = options.get('vAxes.0.title').trim()
+  var y_title = options.get('vAxes.0.title')
 
-  if (y_title == "") {
+  if (y_title == null || y_title == "") {
     SpreadsheetApp.getUi().alert("We need a y-axis title for the bar chart. The title is 'Present Strength'.");
     return false;
-  } else if (y_title != "Present Strength") {
+  } else if (y_title.trim() != "Present Strength") {
     SpreadsheetApp.getUi().alert("The bar chart y-axis title is to be 'Present Strength'.");
     return false;
   }
