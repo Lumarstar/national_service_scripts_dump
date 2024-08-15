@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file. Logs were d
 
 ## Version Log
 
+### [v1.2.2] - 15 Aug 2024
+- fixed bug where for missing bar chart titles and axes titles, an error would be shown saying "Macro tries to read null values"
+by changing the if/else statements: first checking whether the title is null, then trimming it in the `else if` clause.
+
 ### [v1.2.1] - 10 Jun 2024
 - Fixed bug where bar chart title and axes titles are not accepted as correct answers even though visually the chart looks correct by
 adding `.trim()` to bar chart title and axes titles to circumvent erroneous/extra whitespace from user.
