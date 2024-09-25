@@ -78,7 +78,7 @@ I would like to thank the following people:
 
 Copyright © 2023 - 2024 Tew En Hao
 
-This repository is authored by Tew En Hao, ASCC 57/23, BMTC SCH V Coyote Company Platoon 2 (38/23 to 41/23) and Platoon 3 (42/23 onwards) Section
+This repository is authored by Tew En Hao, ASCC 57/23, BMTC SCH V Coyote Company Platoon 2 (38/23 to 41/23) and Platoon 3 (42/23 to 47/24) Section
 Commander/Assistant Trainer.
 
 All Rights Reserved.
